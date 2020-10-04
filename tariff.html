@@ -335,8 +335,8 @@
                
                </tr>
                <tr>
-                 <td>8<input name="price" type="checkbox" id="Cycling" value="8"></td>
-                 <td>80<input  name="price"  type="checkbox" id="Cycling"  value="80"></td>
+                 <td>8<input name="price" type="checkbox" id="Cyclecraft" value="8"></td>
+                 <td>80<input  name="price"  type="checkbox" id="Cyclecraft"  value="80"></td>
               
                </tr>
                
@@ -416,7 +416,8 @@
           for(var i=0; i<items.length; i++){
             if(items[i].type=='checkbox' && items[i].checked==true)
             {
-              package+="\n"+items[i].id;
+             
+            package+="\n"+items[i].id+"("+items[i].value+" Space Dezos)";
               var a = parseInt(items[i].value);
            p=p+a;
         

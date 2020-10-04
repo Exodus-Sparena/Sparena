@@ -388,13 +388,13 @@
           for(var i=0; i<items.length; i++){
             if(items[i].type=='checkbox' && items[i].checked==true)
             {
-            package+=items[i].id+"\n";
+              package+="\n"+items[i].id+"("+items[i].value+" Space Dezos)";
               var a = parseInt(items[i].value);
            p=p+a;
         
             }
           }
-          alert("YOUR RECEIPT: \n\nPackage selected: " +package+ "\nPrice per person is: " +p+ "\n\nTotal number of Members: " +pax+"\n\nTotal Price is: " +(p*pax))
+          alert("YOUR RECEIPT: \n\nPackage selected: " +package+ "\n\nPrice per person is: " +p+ "\n\nTotal number of Members: " +pax+"\n\nTotal Price is: " +(p*pax))
         
         }		
 

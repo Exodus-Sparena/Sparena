@@ -609,3 +609,22 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
   display: none;
 }
   
+.packagepic{
+  width:45%;
+}
+
+.packagepic2{
+  width:50%;
+}
+
+@media(max-width:900px)
+{
+    
+.packagepic{
+  width:30%;
+}
+
+.packagepic2{
+  width:35%;
+}
+}

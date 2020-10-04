@@ -364,7 +364,7 @@ border-radius: 5px;
 
 height: 3.5rem;
 padding: none;
-background-image: linear-gradient(to top, rgb(217, 237, 250) 10%, rgb(223, 189, 243)100%); 
+background-image: linear-gradient(to top, rgb(181, 217, 241) 10%, rgb(223, 189, 243)100%); 
 color: rgb(0, 0, 0);
 margin: 0.2rem;
 
@@ -516,7 +516,7 @@ width: 100%;
 border: 3px solid #73d5e2;
 border-right: none;
 padding: 5px;
-height: 36px;
+height: 40px;
 border-radius: 5px 0 0 5px;
 outline: none;
 color: #9DBFAF;
@@ -533,7 +533,7 @@ color: #73d5e2;
 
 .searchButton {
 width: 40px;
-height: 36px;
+height: 40px;
 border: 1px solid #00B4CC;
 background: #00B4CC;
 text-align: center;

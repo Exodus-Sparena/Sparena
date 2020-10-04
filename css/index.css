@@ -493,7 +493,7 @@ font-size: 1.2rem;
 }
 
 .topnavigation {
-background-image: linear-gradient( rgb(210, 243, 231) 10%, rgb(34, 214, 238)100%);
+background-image: linear-gradient( rgb(186, 243, 222) 10%, rgb(21, 196, 187)70%, rgb(1, 111, 126)100%);
 overflow: hidden;
 margin-bottom: 1rem;
 box-shadow: 2px 2px 4px rgb(102, 101, 101);
@@ -504,11 +504,13 @@ box-shadow: 2px 2px 4px rgb(102, 101, 101);
 .topnavigation a:hover {
 background-image: linear-gradient( rgb(155, 166, 233) 10%, rgb(62, 120, 247)100%);
 color: white;
+border-bottom: solid 0.2rem white;
+
 }
 
 /* Add a color to the active/current link */
 .topnavigation a.active {
-background-color: #032b5a;
+  background-image: linear-gradient( rgb(4, 14, 77) 10%, rgb(71, 212, 205)100%);
 color: white;
 }
 

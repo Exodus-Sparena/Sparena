@@ -416,23 +416,25 @@ font-size: 1.2rem;
 }
 
 .topnavigation {
-background-image: linear-gradient( rgb(210, 243, 231) 10%, rgb(34, 214, 238)100%);
+background-image: linear-gradient( rgb(210, 243, 231) 10%, rgb(172, 183, 255) 50%, rgb(77, 207, 224)100%);
 overflow: hidden;
 margin-bottom: 1rem;
-box-shadow: 2px 2px 4px rgb(102, 101, 101);
+box-shadow: 2px 2px 4px rgb(199, 199, 199);
 }
 
 
 /* Change the color of links on hover */
 .topnavigation a:hover {
-background-image: linear-gradient( rgb(155, 166, 233) 10%, rgb(62, 120, 247)100%);
-color: white;
+background-image: linear-gradient( rgb(0, 221, 236) 10%, rgb(101, 147, 247)100%);
+color: rgb(255, 255, 255);
+border-bottom: 0.2rem solid  rgb(255, 255, 255);
+
 }
 
 
 /* Add a color to the active/current link */
 .topnavigation a.active {
-background-color: #032b5a;
+  background-image: linear-gradient( rgb(11, 182, 119) 10%, rgb(21, 196, 187)70%, rgb(1, 111, 126)100%);
 color: white;
 }
 
